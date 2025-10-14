@@ -96,10 +96,11 @@ To execute the Urban Path Planning Algorithm within the CARLA Simulator environm
 git clone https://github.com/MostafaAshraf612/Urban_Path_Planning_Algorithm.git
 ```
 
-### ⚠️ Important Note
-The original `live_plotter.py` and `module_7.py` files provided in the course materials contain bugs and compatibility issues.  
-✅ Please ensure you **replace them with the corrected versions included in this repository**.  
-📁 These files must be placed directly inside the `PythonClient/Urban_Path_Planning_Algorithm` folder of your CARLA simulator for proper execution.
+> ### ⚠️ Important Note
+>The original `live_plotter.py` and `module_7.py` files provided in the course materials contain bugs and compatibility issues.
+> 
+>✅ Please ensure you **replace them with the corrected versions included in this repository**.  
+>📁 These files must be placed directly inside the `PythonClient/Urban_Path_Planning_Algorithm` folder of your CARLA simulator for proper execution.
 
 ### 📁 Step 2: Integrate with CARLA Simulator
 ```bash
