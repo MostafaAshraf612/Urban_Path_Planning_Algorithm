@@ -6,6 +6,7 @@
 ![Language: Python](https://img.shields.io/badge/Language-Python3-blue.svg)
 ![Status: Completed](https://img.shields.io/badge/Status-Completed-success.svg)
 
+
 ---
 
 ## 📚 Table of Contents
@@ -96,9 +97,9 @@ To execute the Urban Path Planning Algorithm within the CARLA Simulator environm
 git clone https://github.com/MostafaAshraf612/Urban_Path_Planning_Algorithm.git
 ```
 
-> ### ⚠️ Important Note
->The original `live_plotter.py` and `module_7.py` files provided in the course materials contain bugs and compatibility issues.
-> 
+>### ⚠️ Important Note
+>The original `live_plotter.py` and `module_7.py` files provided in the course materials contain bugs and compatibility issues.  
+
 >✅ Please ensure you **replace them with the corrected versions included in this repository**.  
 >📁 These files must be placed directly inside the `PythonClient/Urban_Path_Planning_Algorithm` folder of your CARLA simulator for proper execution.
 
@@ -132,6 +133,7 @@ python module_7.py
 ```
 
 > ✅ Ensure that all project files remain in the root of the `Urban_Path_Planning_Algorithm` folder to maintain compatibility with the execution pipeline.
+
 ---
 
 ## 📈 Algorithm Summary
@@ -163,16 +165,9 @@ The planner successfully performs:
 - Speed regulation within acceleration and jerk limits  
 - Obstacle avoidance in dynamic urban scenarios
 
-📹 **Demo Preview:**  
+### 📹 Demo Preview
+
 ![Urban Planning Demo](assets/Urban_Planning_demo_preview.gif)
-
-
-<p align="center">
-  <strong>View Full Demonstration:</strong><br>
-  <a href="https://onedrive.live.com/?<your_file_link>" target="_blank">
-    ➡️ Watch on Google Drive
-  </a>
-</p>
 
 ---
 
