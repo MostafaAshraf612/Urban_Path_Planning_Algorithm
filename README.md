@@ -58,32 +58,34 @@ Developed as part of the **Coursera Self-Driving Cars Specialization**, the plan
 ## 📁 Repository Structure
 
 ```
-Course4FinalProject/
-├── __init__.py
-├── behavioural_planner.py         # Behavior planning logic (FSM)
-├── collision_checker.py           # Collision detection for static/dynamic obstacles
-├── controller2d.py                # Low-level vehicle control
-├── course4_waypoints.txt          # Waypoint data for simulation
-├── live_plotter.py                # Real-time plotting utility
-├── local_planner.py               # Local trajectory generation
-├── module_7.py                    # Main execution script
-├── options.cfg                    # Configuration file
-├── parked_vehicle_params.txt      # Parameters for parked vehicle detection
-├── path_optimizer.py              # Path smoothing and optimization
-├── stop_sign_params.txt           # Parameters for stop sign behavior
-├── velocity_planner.py            # Speed profile generation
-├── utils.py                       # Helper functions
-├── README.md                      # Project documentation
-│
-├── controller_output/
-│   ├── collision.txt
-│   ├── collision_count.txt
-│   ├── trajectory.txt
-│
+Urban_Path_Planning_Algorithm/
 ├── assets/
 │   └── Urban_Planning_demo_preview.gif  # Demo visualization
 │
-└── __pycache__/                   # Python bytecode cache
+├── Course4FinalProject/
+│   ├── __init__.py
+│   ├── behavioural_planner.py         # Behavior planning logic (FSM)
+│   ├── collision_checker.py           # Collision detection for static/dynamic obstacles
+│   ├── controller2d.py                # Low-level vehicle control
+│   ├── course4_waypoints.txt          # Waypoint data for simulation
+│   ├── live_plotter.py                # Real-time plotting utility
+│   ├── local_planner.py               # Local trajectory generation
+│   ├── module_7.py                    # Main execution script
+│   ├── options.cfg                    # Configuration file
+│   ├── parked_vehicle_params.txt      # Parameters for parked vehicle detection
+│   ├── path_optimizer.py              # Path smoothing and optimization
+│   ├── stop_sign_params.txt           # Parameters for stop sign behavior
+│   ├── velocity_planner.py            # Speed profile generation
+│   ├── utils.py                       # Helper functions
+│   
+│
+│   ├── controller_output/
+│   │   ├── collision.txt
+│   │   ├── collision_count.txt
+│   │   ├── trajectory.txt
+│
+│   └── __pycache__/                   # Python bytecode cache
+├── README.md                      # Project documentation
 ```
 
 ---
@@ -164,10 +166,12 @@ The planner successfully performs:
 - Safe lane keeping and smooth lane changes  
 - Speed regulation within acceleration and jerk limits  
 - Obstacle avoidance in dynamic urban scenarios
-
 ### 📹 Demo Preview
 
 ![Urban Planning Demo](assets/Urban_Planning_demo_preview.gif)
+
+▶️ **Watch Full Demonstration Video**  
+[Click here to view the full demo on OneDrive](https://onedrive.live.com/your-demo-link-here)
 
 ---
 
