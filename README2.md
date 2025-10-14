@@ -91,71 +91,46 @@ Course4FinalProject/
 
 To execute the Urban Path Planning Algorithm within the CARLA Simulator environment, follow the steps below in sequence:
 
----
-
 ### 📥 Step 1: Clone the Project Repository
-
 ```bash
 git clone https://github.com/MostafaAshraf612/Urban_Path_Planning_Algorithm.git
 ```
 
----
+### ⚠️ Important Note
+The original `live_plotter.py` and `module_7.py` files provided in the course materials contain bugs and compatibility issues.  
+✅ Please ensure you **replace them with the corrected versions included in this repository**.  
+📁 These files must be placed directly inside the `PythonClient/Urban_Path_Planning_Algorithm` folder of your CARLA simulator for proper execution.
 
 ### 📁 Step 2: Integrate with CARLA Simulator
-
-Move the cloned repository into the `PythonClient` directory of your CARLA installation:
-
 ```bash
 mv Urban_Path_Planning_Algorithm /path/to/CARLA/PythonClient/
 ```
 
-Replace `/path/to/CARLA/` with the actual path to your CARLA root directory.
-
----
-
 ### 🐍 Step 3: Create and Activate a Virtual Environment
-
-Navigate to the project directory and create a virtual environment:
-
 ```bash
 cd /path/to/CARLA/PythonClient/Urban_Path_Planning_Algorithm
 python3 -m venv urban_env
 source urban_env/bin/activate
 ```
 
----
-
 ### 📦 Step 4: Install Python Dependencies
-
-Install the required packages listed in `requirements.txt`:
-
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
 ### 🎮 Step 5: Launch the CARLA Simulator
-
-In a separate terminal, navigate to the CARLA root directory and launch the simulator with the Course 4 map:
-
 ```bash
+cd /path/to/CARLA
 ./CarlaUE4.sh /Game/Maps/Course4 -windowed -ResX=1500 -ResY=1000 -carla-server -opengl -benchmark -fps=30
 ```
 
----
-
 ### 🚗 Step 6: Execute the Urban Path Planner
-
-Return to the project directory and run the planner:
-
 ```bash
 cd /path/to/CARLA/PythonClient/Urban_Path_Planning_Algorithm
 python module_7.py
 ```
 
 > ✅ Ensure that all project files remain in the root of the `Urban_Path_Planning_Algorithm` folder to maintain compatibility with the execution pipeline.
-
 ---
 
 ## 📈 Algorithm Summary
@@ -188,19 +163,13 @@ The planner successfully performs:
 - Obstacle avoidance in dynamic urban scenarios
 
 📹 **Demo Preview:**  
-<p align="center">
-  <a href="assets/Urban_Planning_demo_preview.gif">
-    <img src="assets/Urban_Planning_demo_preview.gif" 
-         alt="Urban Planning Demo" 
-         width="65%" 
-         style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  </a>
-</p>
+![Urban Planning Demo](assets/Urban_Planning_demo_preview.gif)
+
 
 <p align="center">
   <strong>View Full Demonstration:</strong><br>
   <a href="https://onedrive.live.com/?<your_file_link>" target="_blank">
-    ➡️ Watch on OneDrive
+    ➡️ Watch on Google Drive
   </a>
 </p>
 
