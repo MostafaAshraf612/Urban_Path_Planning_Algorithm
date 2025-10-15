@@ -166,11 +166,10 @@ The planner successfully performs:
 - Safe lane keeping and smooth lane changes  
 - Speed regulation within acceleration and jerk limits  
 - Obstacle avoidance in dynamic urban scenarios
-- 
+  
 ### 📹 Demo Preview
 
-<img width="2675" height="1728" alt="Screenshot from 2025-10-14 15-54-32" src="https://github.com/user-attachments/assets/9d1306ea-0384-4705-8c08-f6919a2e3afb" />
-
+![Urban Path Planning Demo](assets/Urban_Planning_demo_preview.gif)
 
 <div align="center">
 
