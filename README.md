@@ -168,8 +168,9 @@ The planner successfully performs:
 - Obstacle avoidance in dynamic urban scenarios
   
 ### 📹 Demo Preview
-
-![Urban Path Planning Demo](assets/Urban_Planning_demo_preview.gif)
+<p align="center">
+  <img src="assets/Urban_Path_Planning_demo_preview.gif" width="500"/>
+</p>
 
 <div align="center">
 
